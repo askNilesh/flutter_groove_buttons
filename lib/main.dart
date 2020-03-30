@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: RawMaterialButton(
                       onPressed: () {},
                       child: Icon(
-                        Icons.settings,
+                        Icons.add_shopping_cart,
                         color: Colors.grey[600],
                         size: 28.0,
                       ),
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: RawMaterialButton(
                       onPressed: () {},
                       child: Icon(
-                        Icons.settings,
+                        Icons.favorite,
                         color: Colors.grey[600],
                         size: 28.0,
                       ),
@@ -119,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: RawMaterialButton(
                       onPressed: () {},
                       child: Icon(
-                        Icons.settings,
+                        Icons.android,
                         color: Colors.grey[600],
                         size: 28.0,
                       ),
@@ -148,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: RawMaterialButton(
                       onPressed: () {},
                       child: Icon(
-                        Icons.settings,
+                        Icons.arrow_forward_ios,
                         color: Colors.grey[600],
                         size: 28.0,
                       ),
@@ -247,7 +247,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       fillColor: Colors.white,
                       padding: const EdgeInsets.all(18.0),
                     )),
-
               ],
             ),
           ],
